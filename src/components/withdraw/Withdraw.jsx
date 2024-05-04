@@ -12,7 +12,7 @@ const Withdraw = () => {
         <h1>Amount to withdraw</h1>
         <input type="text" />
 
-        <h2 onClick={handleToast}>Withdraw your stake</h2>
+        <h2 className='ml-1o cursor-pointer font-semibold mt-7' onClick={handleToast}>Withdraw your stake</h2>
         <Toaster/>
     </div>
   )
